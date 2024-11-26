@@ -1,0 +1,81 @@
+{
+  "_id": {
+    "$oid": "6735e89ff9243676ca36329f"
+  },
+  "trgt_id": "jagran-hindi",
+  "trgt_name": "Jagran Hindi",
+  "trgt_slug": "jagran-hindi",
+  "trgt_img": {
+    "original": {
+      "id": null,
+      "name": "jagran-logo-freelogovectors.net_-1731586100920.png",
+      "ext": "png",
+      "mime": "image/png",
+      "size": {
+        "value": 5.82,
+        "unit": "KB"
+      },
+      "width": {
+        "value": 1215,
+        "unit": "px"
+      },
+      "height": {
+        "value": 195,
+        "unit": "px"
+      },
+      "path": "https://storage.googleapis.com/dev-cms-backend-media/images/2024-11-14/user/image/jagran-logo-freelogovectors.net_-1731586100920.png",
+      "error": null,
+      "file": null,
+      "status": "uploaded",
+      "progress": 100,
+      "isNew": false,
+      "original_name": "jagran-logo-freelogovectors.net_.png"
+    }
+  },
+  "trgt_index": 25,
+  "trgt_domain": "https://jagran.com",
+  "trgt_lang_code": "hi_IN",
+  "trgt_lang": {
+    "_id": {
+      "$oid": "662269b78cc6fafb90142724"
+    },
+    "lang_name": "hindi",
+    "lang_code": "hi_IN",
+    "lang_status": "active",
+    "lang_id": "1e8833ce-f50d-4f5f-940c-27c0d06b0d60"
+  },
+  "trgt_update_publish_on": false,
+  "trgt_publish_type": "0",
+  "trgt_update_modify_on": false,
+  "trgt_modify_type": "0",
+  "trgt_color": "#fcef32",
+  "trgt_desc": "Jagran Hindi  is an Indian Hindi-language daily digital news.",
+  "trgt_status": "active",
+  "trgt_created_by": {
+    "user_id": "-1",
+    "user_email": "adminjagran@yopmail.com",
+    "user_full_name": "Admin Jagran",
+    "user_role": "super admin",
+    "user_mobile_number": "",
+    "user_emp_code": "01",
+    "user_slug": "",
+    "user_seq": ""
+  },
+  "trgt_updated_by": {
+    "user_id": "-1",
+    "user_email": "adminjagran@yopmail.com",
+    "user_full_name": "Admin Jagran",
+    "user_role": "super admin",
+    "user_mobile_number": "",
+    "user_emp_code": "01",
+    "user_slug": "",
+    "user_seq": ""
+  },
+  "trgt_created_on": {
+    "$date": "2024-11-14T17:40:07.000Z"
+  },
+  "trgt_updated_on": {
+    "$date": "2024-11-14T17:40:07.000Z"
+  },
+  "__v": 0
+}

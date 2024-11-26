@@ -1,0 +1,86 @@
+[
+  {
+    "_id": {
+      "$oid": "66f140eb9dcf10a2aec946c7"
+    },
+    "usrt_id": "A",
+    "usrt_name": "Admin",
+    "usrt_status": "active",
+    "usrt_created_on": {
+      "$date": "2023-03-07T06:41:31.198Z"
+    },
+    "usrt_updated_on": {
+      "$date": "2024-02-29T11:18:56.127Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66f1411c9dcf10a2aec946c8"
+    },
+    "usrt_id": "E",
+    "usrt_name": "Expert",
+    "usrt_status": "active",
+    "usrt_created_on": {
+      "$date": "2023-03-07T06:41:31.198Z"
+    },
+    "usrt_updated_on": {
+      "$date": "2024-02-29T11:18:56.127Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66f141389dcf10a2aec946c9"
+    },
+    "usrt_id": "R",
+    "usrt_name": "Reviewer",
+    "usrt_status": "active",
+    "usrt_created_on": {
+      "$date": "2023-03-07T06:41:31.198Z"
+    },
+    "usrt_updated_on": {
+      "$date": "2024-02-29T11:18:56.127Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66f1415a9dcf10a2aec946ca"
+    },
+    "usrt_id": "W",
+    "usrt_name": "Writer",
+    "usrt_status": "active",
+    "usrt_created_on": {
+      "$date": "2023-03-07T06:41:31.198Z"
+    },
+    "usrt_updated_on": {
+      "$date": "2024-02-29T11:18:56.127Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6735f244eae4efe5e0e3124f"
+    },
+    "usrt_id": "D",
+    "usrt_name": "Web",
+    "usrt_status": "active",
+    "usrt_created_on": {
+      "$date": "2023-03-07T06:41:31.198Z"
+    },
+    "usrt_updated_on": {
+      "$date": "2024-02-29T11:18:56.127Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6735f250eae4efe5e0e31250"
+    },
+    "usrt_id": "P",
+    "usrt_name": "Print",
+    "usrt_status": "active",
+    "usrt_created_on": {
+      "$date": "2023-03-07T06:41:31.198Z"
+    },
+    "usrt_updated_on": {
+      "$date": "2024-02-29T11:18:56.127Z"
+    }
+  }
+]
