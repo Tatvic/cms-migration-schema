@@ -75,7 +75,8 @@
             "cat_parent_id": "79", // Required sql- SectionID
             "subcat_id": "517", // use sql- CategoryID
             "subcat_old_id": "517", // use sql- CategoryID
-            "subcat_name": "Stove", // use sql- category_name
+            "subcat_name": "Stove", // use sql-EngName
+            "subcat_display_name":"", // use sql -CatgName
             "subcat_type": null,
             "subcat_summary": "", // use sql- display_summary
             "subcat_above_summary": "",
