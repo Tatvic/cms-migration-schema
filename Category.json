@@ -22,7 +22,6 @@
     },
     "cat_status": "active", // if sql- is_active = Y then 'active' else 'inactive'
     "cat_fk_trgt_id": "jagran-hindi", // use sql - locale to add target id accordingly 
-    // en_US : only-my-health-english  , hi_IN : only-my-health-hindi
     "cat_sub_category_count": 0, // take total array length of cat_sub_category
     "cat_custom_field": {
         "category_meta_description": null,
