@@ -1,0 +1,151 @@
+{
+    "cat_id": "79", // use sql- SectionID
+    "cat_old_id": "79", // use sql- SectionID
+    "cat_name": "kitchen and dining", // use sql- EngName
+    "cat_display_name": // use sql - Sectionname
+    "cat_type": null, // default value
+    "cat_summary": null, // default value
+    "cat_above_summary": "",
+    "cat_below_summary": "",
+    "cat_slug": "kitchen-and-dining", // use sql- EngName convert it into lowercase and replace all spaces with dash(-). -- for hindi category_name please set new slug as per given excel. 
+    "cat_meta": {
+        "meta_title": [],
+        "meta_tag": [],
+        "seo_tag": [],
+        "hash_tag": [],
+        "meta_counter": "",
+        "keyword_density": "",
+        "canonical_url": null,
+        "json_structured_data": null,
+        "robots": [],
+        "meta_social_tag": []
+    },
+    "cat_status": "active", // if sql- is_active = Y then 'active' else 'inactive'
+    "cat_fk_trgt_id": "jagran-hindi", // use sql - locale to add target id accordingly 
+    // en_US : only-my-health-english  , hi_IN : only-my-health-hindi
+    "cat_sub_category_count": 0, // take total array length of cat_sub_category
+    "cat_custom_field": {
+        "category_meta_description": null,
+        "article_meta_title": null,
+        "article_meta_description": null,
+        "slideshow_meta_title": null,
+        "slideshow_meta_description": null,
+        "video_page_description": null,
+        "video_meta_description": null,
+        "google_ad_enable": null,
+        "display_html_template": null,
+        "html_template": null,
+        "tags": null,
+        "category_ref": null,
+        "logo": null,
+        "page_description_slideshow": null,
+        "page_description_video": null,
+    },
+    "cat_created_on": {
+        "$date": "2024-11-25T16:46:36.230Z" // default value
+    },
+    "cat_created_by": {
+        "user_id": "-1",
+        "user_email": "adminjagran@yopmail.com",
+        "user_full_name": "Admin Jagran",
+        "user_role": "super admin",
+        "user_mobile_number": "",
+        "user_emp_code": "P1291",
+        "user_slug": "",
+        "user_image": "",
+        "user_old_id": ""
+    }, // default value
+    "cat_updated_on": {
+        "$date": "2024-11-25T16:46:36.230Z"  // default value
+    },
+    "cat_updated_by": {
+        "user_id": "-1",
+        "user_email": "adminjagran@yopmail.com",
+        "user_full_name": "Admin Jagran",
+        "user_role": "super admin",
+        "user_mobile_number": "",
+        "user_emp_code": "P1291",
+        "user_slug": "",
+        "user_image": "",
+        "user_old_id": ""
+    }, // default value
+    "cat_sub_category": [
+        // if sql- parent_category_id is equal to category_id then add that record here
+        {
+            "cat_parent_id": "79", // Required sql- SectionID
+            "subcat_id": "517", // use sql- CategoryID
+            "subcat_old_id": "517", // use sql- CategoryID
+            "subcat_name": "Stove", // use sql- category_name
+            "subcat_type": null,
+            "subcat_summary": "", // use sql- display_summary
+            "subcat_above_summary": "",
+            "subcat_below_summary": "",
+            "subcat_slug": "stove", // use sql- url_name convert it into lowercase and replace all spaces with dash(-).  --for hindi category_name please set new slug as per given excel. 
+            "subcat_custom_field": {
+                "sub_category_meta_description": "",
+                "article_meta_title": "",
+                "article_meta_description": "",
+                "slideshow_meta_title": "",
+                "slideshow_meta_description": "",
+                "video_page_description": "",
+                "video_meta_description": "",
+                "google_ad_enable": "",
+                "display_html_template": "",
+                "html_template": "",
+                "tags": "",
+                "category_ref": "",
+                "logo": "",
+                "page_description_slideshow": "",
+                "page_description_video": "",
+            },
+            "subcat_meta": {
+                "meta_title": "",
+                "meta_descr":"",
+                "meta_tag": "",
+                "seo_tag": [],
+                "hash_tag": [],
+                "meta_counter": null,
+                "keyword_density": null,
+                "canonical_url": null,
+                "json_structured_data": null,
+                "robots": [],
+                "meta_social_tag": []
+            },
+            "subcat_status": "active", // if sql- is_active = 1 then 'active' else 'inactive'
+            "subcat_created_on": {
+                "$date": "2024-11-25T16:46:36.230Z" // default value
+            },
+            "subcat_created_by": {
+                "user_id": "-1",
+                "user_email": "adminjagran@yopmail.com",
+                "user_full_name": "Admin Jagran",
+                "user_role": "super admin",
+                "user_mobile_number": "",
+                "user_emp_code": "P1291",
+                "user_slug": "",
+                "user_image": "",
+                "user_old_id": ""
+            }, // default value
+            "subcat_updated_on": {
+                "$date": "2024-11-25T16:46:36.230Z" // default value
+            },
+            "subcat_updated_by": {
+                "user_id": "-1",
+                "user_email": "adminjagran@yopmail.com",
+                "user_full_name": "Admin Jagran",
+                "user_role": "super admin",
+                "user_mobile_number": "",
+                "user_emp_code": "P1291",
+                "user_slug": "",
+                "user_image": "",
+                "user_old_id": ""
+            }, // default value
+            "subcat_extra": {
+                
+            }
+        }
+    ],
+    "cat_extra": {
+        
+    }
+}

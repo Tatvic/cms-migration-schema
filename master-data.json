@@ -1,0 +1,43 @@
+
+[
+  {
+    "_id": {
+      "$oid": "6740688c211cdf1490933b85"
+    },
+    "master_fk_trgt_id": "jagran-hindi",
+    "master_name": "category_type",
+    "master_value": [
+      {
+        "name": "NEWS",
+        "id": "1"
+      },
+      {
+        "name": "AFFILIATE",
+        "id": "2"
+      }
+    ],
+    "master_created_by": {
+      "user_id": "1",
+      "user_full_name": "Admin Jagran",
+      "user_email": "adminjagran@yopmail.com",
+      "user_role": "Super Admin",
+      "user_image": "",
+      "user_mobile_number": ""
+    },
+    "master_updated_by": {
+      "user_id": "1",
+      "user_full_name": "Admin Jagran",
+      "user_email": "adminjagran@yopmail.com",
+      "user_role": "Super Admin",
+      "user_image": "",
+      "user_mobile_number": ""
+    },
+    "master_id": "f9b023bf-b76a-4f18-93fb-3db849282dee",
+    "master_created_on": {
+      "$date": "2023-09-04T06:49:31.577Z"
+    },
+    "master_updated_on": {
+      "$date": "2023-09-04T06:49:31.577Z"
+    }
+  }
+  
