@@ -1,0 +1,112 @@
+{
+    "user_id": "70001", // find the max user_id and set + 1
+    "user_seq": "70001", // same as user_id
+    "user_image": {
+        "original": {
+            "name": "", // use sql => author_img and split from "/" and take last element
+            "extension": "jpg", // take extension name by split image_path from "." and take last element
+            "mime": "image/jpg", // set respectively as ext type
+            "path": "https://storage.googleapis.com/dev-cms-backend-media/images/2024-09-02/user/image/323%20KB-1725287036313.jpg" // use sql => author_img and map bucket cdn url (https://www.jagranimages.com/images/newimg/author/26_10_2020-181519117-JD1987.jpg) respectively
+        }
+    },
+    "user_old_data": {
+        "Jagran_Hindi": {
+            "user_id": "", // use sql => author_id 
+            "user_name": "", // use sql => author_name
+            "user_emp_code":"", // use sql=> empcode
+            "user_image": "" // use sql => image_path and map bucket cdn url (https://www.jagranimages.com/images/newimg/author/)  --if image_path == null or image_path == "" then set  author_img = ""
+        
+    },
+    "user_emp_code": "", // use sql=> empcode
+    "user_first_name": "Jagran", // use sql => name split (' ') and trim then take first part
+    "user_last_name": "User", // use sql => name split (' ') and trim then take last part  --if last part not found then ''.
+    "user_slug": "jagran-user", // use sql => page_url  --if page_url = null then use sql => name and trim then convert it into lowercase and replace all spaces with dash(-).
+    "user_full_name": "Jagran User", // use sql => name and trim then set
+    "user_name": {
+        "en": "", // use sql => author_name
+        "hin": ""// use sql => author_hname
+    }, // use postgres => name  --if locale en_US then set 'name' in 'user_name.en' || hi_IN then set 'name' in 'user_name.hin'
+    "user_dob": "",
+    "user_email": "jagranuser@yopmail.com", // use sql => mailid  --please set email according to given excel
+    "user_password": "",//user_password
+    "user_birth_place": "",
+    "user_nationality": "",
+    "user_location": "", // use sql => demographic
+    "user_fk_usrl_id": "733feb22-0a92-4d3f-848c-3576a14471b4",
+    "user_role": {
+        "usrl_name": "Content-Editor",
+        "usrl_id": "733feb22-0a92-4d3f-848c-3576a14471b4"
+    },
+    "user_fk_type_id": "D", // use postgres => emptype  Note: consider type 'D' = 'D' and 'P' = 'P'   -- D means Web and P means Print
+    "user_type": {
+        "usrt_id": "D",
+        "usrt_name": "Web"
+    }, // for user types use 'user_types' collection of 'jagran_user' database. use postgres => type and find 'usrt_id' in user_types and set usrt_id, usrt_name field.
+    "user_expt": [], // use postgres => expertise and split ','  -- if expertise == null then user_expt = null
+    "user_info": {
+        "en_US": "",
+        "hi_IN": ""
+    }, // use postgres => about_me  --if locale en_US then set 'about_me' in 'user_info.en_US' || hi_IN then set 'about_me' in 'user_info.hi_IN'
+    "user_awards": [], // use postgres => Awards and split ','
+    "user_job": "",  // use postgres => Job_title
+    "user_certi": [],// use postgres => Certification
+    "user_lang": [
+        "english",
+        "hindi"
+    ], // use postgres => LANGUAGE --if LANGUAGE contains Hindi then hindi || contains English then english || contains Tamil then tamil
+    "user_status": "active",
+    "user_default_target": "Jagran_Hindi",
+    "user_target": "jagran_user.user_target table where trgt_id => jagran-hindi", 
+    "user_login_attempt": 0,
+    "user_specialization": "", // use postgres => specialization
+    "user_social_link": {
+        "facebook": null, // use postgres => authorFBUrl
+        "instagram": null, // use postgres => 
+        "twitter": null, // use postgres => authorTwitterUrl
+        "linkedin": null, // use postgres => authorLnkedinUrl
+        "contact_no": null, // use postgres => 
+        "website": null // use postgres => 
+    },
+    "user_address": {
+        "locality": null,
+        "region": null,
+        "postal_code": null,
+        "country": null,
+        "state": null,
+        "city": null,
+        "address": null // 
+    },
+    "user_meta": {
+        "meta_title": "", 
+        "meta_desc": "",
+        "meta_tag": []
+    },
+    "user_created_by": {
+        "user_email": "adminjagran@yopmail.com",
+        "user_emp_code": "01",
+        "user_full_name": "Admin Jagran",
+        "user_id": "-1",
+        "user_role": "super admin",
+        "user_old_id": "1040",
+        "user_image": "https://storage.googleapis.com/dev-cms-backend-media/images/2024-09-02/user/image/323%20KB-1725287036313.jpg"
+    }, // default values
+    "user_created_on": {
+        "$date": "2024-01-09T14:42:11.318Z" // use postgres => idate
+    },
+    "user_updated_by": {
+        "user_email": "adminjagran@yopmail.com",
+        "user_emp_code": "01",
+        "user_full_name": "Admin Jagran",
+        "user_id": "-1",
+        "user_role": "super admin",
+        "user_old_id": "1040",
+        "user_image": "https://storage.googleapis.com/dev-cms-backend-media/images/2024-09-02/user/image/323%20KB-1725287036313.jpg"
+    }, // default values
+    "user_updated_on": {
+        "$date": "2024-01-09T14:42:11.315Z" // use postgres => mdate
+    },
+    "user_extra": {
+        
+        } 
+    }
+}sa
