@@ -1,9 +1,10 @@
+// use sql => user_mst and user_mst_details table and mailid is  common  key
 {
     "user_id": "70001", // find the max user_id and set + 1
     "user_seq": "70001", // same as user_id
     "user_image": {
         "original": {
-            "name": "", // use sql => author_img and split from "/" and take last element
+            "name": "", // use sql => author_img 
             "extension": "jpg", // take extension name by split image_path from "." and take last element
             "mime": "image/jpg", // set respectively as ext type
             "path": "https://storage.googleapis.com/dev-cms-backend-media/images/2024-09-02/user/image/323%20KB-1725287036313.jpg" // use sql => author_img and map bucket cdn url (https://www.jagranimages.com/images/newimg/author/26_10_2020-181519117-JD1987.jpg) respectively
@@ -25,10 +26,10 @@
     "user_name": {
         "en": "", // use sql => author_name
         "hin": ""// use sql => author_hname
-    }, // use postgres => name  --if locale en_US then set 'name' in 'user_name.en' || hi_IN then set 'name' in 'user_name.hin'
+    }, // use sql => author_name  --if locale en_US then set 'name' in 'user_name.en' || hi_IN then set 'author_hname' in 'user_name.hin'
     "user_dob": "",
     "user_email": "jagranuser@yopmail.com", // use sql => mailid  --please set email according to given excel
-    "user_password": "",//user_password
+    "user_password": "",
     "user_birth_place": "",
     "user_nationality": "",
     "user_location": "", // use sql => demographic
@@ -46,7 +47,7 @@
     "user_info": {
         "en_US": "",
         "hi_IN": ""
-    }, // use postgres => about_me  --if locale en_US then set 'about_me' in 'user_info.en_US' || hi_IN then set 'about_me' in 'user_info.hi_IN'
+    }, // use postgres => author_detail  
     "user_awards": [], // use postgres => Awards and split ','
     "user_job": "",  // use postgres => Job_title
     "user_certi": [],// use postgres => Certification
@@ -109,4 +110,4 @@
         
         } 
     }
-}sa
+}
